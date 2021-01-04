@@ -207,7 +207,7 @@ async def say(ctx):
     role = discord.utils.get(ctx.guild.roles, name = 'Bot')
     if role in ctx.author.roles:
         await ctx.message.delete()
-        #channel = client.get_channel(298471146762928128)
+        #channel = client.get_channel(None)
         msg = ctx.message.content[5:]
         #print(msg)
         await ctx.channel.send(msg)#, tts = True)
@@ -224,7 +224,7 @@ async def speak(ctx):
     role = discord.utils.get(ctx.guild.roles, name = 'Bot')
     if role in ctx.author.roles:
         await ctx.message.delete()
-        #channel = client.get_channel(298471146762928128)
+        #channel = client.get_channel(None)
         msg = '<:dell:651987754615308293>**<( **'
         msg = msg + ctx.message.content[7:] + '** )**'
         #print(msg)
