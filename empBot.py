@@ -11,7 +11,7 @@ from urllib.request import urlopen, URLError
 from discord.ext import commands, tasks
 
 # TF2 Emporium Bot
-# Coded by rabscootle#1998 (Andres S.)
+# Coded by rabscootle#1998
 
 # NOTE: API Keys + Channel IDs have been purged for privacy reasons.
 
